@@ -15,7 +15,7 @@ import Footer from '@/components/Layouts/Footer.vue'
   <main>
     <Hero>
       <Container>
-        <section>
+        <section id="home">
           <div
             class="flex flex-col-reverse md:flex-row justify-between items-center mt-10 md:mt-[50px] gap-10 md:gap-5 overflow-hidden"
           >

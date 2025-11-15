@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import expertises from '../views/Expertises.vue'
-import projects from '../views/Projects.vue'
-import solutions from '../views/Solutions.vue'
-import services from '../views/Services.vue'
-import contact from '../views/Contact.vue'
+import AboutSection from '../components/AboutSection.vue'
+import ServicesSection from '../components/ServicesSection.vue'
+import ProjectSection from '../components/ProjectSection.vue'
+import TalktousSection from '../components/TalktousSection.vue'
+// import solutions from '../views/Solutions.vue'
+// import services from '../views/Services.vue'
+// import contact from '../views/Contact.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,33 +19,24 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      component: () => import('../views/AboutView.vue'),
+      component: AboutSection,
     },
     {
       path: '/expertises',
       name: 'expertises',
-      component:expertises,
+      component:ServicesSection,
     },
     {
       path: '/projects',
       name: 'projects',
-      component: projects,
-    },
-    {
-      path: '/solutions',
-      name: 'solutions',
-      component:solutions,
+      component:ProjectSection,
     },
     {
       path: '/contact',
       name: 'contact',
-      component:contact,
+      component:TalktousSection,
     },
-    {
-      path: '/services',
-      name: 'services',
-      component:services,
-    },
+   
   ],
 })
 

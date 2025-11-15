@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#F1F6FC]">
     <Container>
-      <section class="my-16">
+      <section class="my-16" id="about">
         <div class="flex flex-col md:flex-row items-start justify-start gap-10">
           <!-- Image -->
           <div class="w-full md:w-1/2 relative">

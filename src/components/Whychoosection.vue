@@ -1,14 +1,14 @@
 <template>
-  <section class="bg-[#F1F6FC]">
+  <section class="bg-[#F1F6FC]" id="">
     <Container>
       <section class="my-16">
-        <div class="">
+        <div class="max-w-[500px]">
           <h1 class=" text-2xl md:text-3xl font-bold leading-7 tracking-0 py-10">
             Powerful Software At The Forefront of Digital Excellence & Technology
           </h1>
         </div>
         <div class="flex flex-col md:flex-row gap-10">
-          <div class="w-[600px]" >
+          <div class="" >
             <h4   data-aos="fade-up"
               data-aos-duration="1500">
               The IT industry offers diverse career opportunities, from network administration to
@@ -19,7 +19,7 @@
           </div>
           <div   data-aos="fade-left"
               data-aos-duration="1500">
-            <img :src="counter" alt="counter-img"/>
+            <img :src="counter" alt="counter-img" class="max-w-[400px] lg:max-w-[700px]"/>
           </div>
         </div>
       </section>

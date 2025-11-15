@@ -1,6 +1,6 @@
 <template>
   <section
-    class="min-h-auto bg-cover bg-no-repeat bg-center lg:bg-[url('@/assets/servicebg.png')] my-20"
+    class="min-h-auto bg-cover bg-no-repeat bg-center lg:bg-[url('@/assets/servicebg.png')] my-20" id="expertises"
   >
     <Container>
       <div>

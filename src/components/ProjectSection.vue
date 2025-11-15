@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 py-[90px]">
+  <section class="bg-gray-100 py-[90px]" id="projects">
     <div>
       <h5 class="text-center text-[#72C18B] uppercase leading-relaxed tracking-normal">
         Case Studies
